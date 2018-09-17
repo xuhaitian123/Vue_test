@@ -116,10 +116,14 @@
       <p>{{sex}}</p>
     </div>
   </div>
-  <div style="display: flex;flex-direction:row;background-color:#FFB6C1;justify-content: center;color:#ffffff">
+  <div style="display: flex;flex-direction:row;background-color:#FFB6C1;justify-content: center;color:#ffffff;margin-top: 5%">
     <div style="width: 20%;background-color: darkblue;">1</div>
     <div style="width: 20%;background-color: red">2</div>
     <div style="width: 20%;background-color: darkblue">3</div>
+    <div style="width: 20%;background-color: yellow">4</div>
+    <div style="width: 20%;background-color: black">5</div>
+
+
   </div>
 </div>
 </template>
@@ -153,8 +157,8 @@
 <style scoped>
 .info{
   background-color: skyblue;
-  height: 1000px;
-  font-size: 9px;
+  height: 1800px;
+  font-size: 20px;
 }
 .container{
   display: flex;
@@ -185,7 +189,7 @@
 .container_1{
   margin-top: 20px;
   display: flex;
-  width: 30%;
+  width: 50%;
   justify-content: space-between;
   flex-wrap: wrap;
   border: 1px solid red;
@@ -193,7 +197,7 @@
 .item{
   flex : 0 0 auto;
   width: 30%;
-  height: 50px;
+  height: 80px;
   border: 1px solid #e7e7e7;
   margin: 5px 0;
   line-height: 3px;
